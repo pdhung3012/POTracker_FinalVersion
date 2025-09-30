@@ -1,0 +1,1 @@
+List the counties in Arizona that have a severe impact by the power outage.

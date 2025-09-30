@@ -1,0 +1,9 @@
+<PubOutages>
+  <Outage>
+    <location>Cold Spring</location>
+    <totalCustomers>523</totalCustomers>
+    <customersWithoutPower>None</customersWithoutPower>
+    <coordinates>-78.88,42.08</coordinates>
+    <reportedTime>recent</reportedTime>
+  </Outage>
+</PubOutages>

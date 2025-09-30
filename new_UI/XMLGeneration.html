@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Outage Report System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #fdf1d2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .header select {
+            padding: 8px;
+            margin-top: 10px;
+        }
+
+        .header button {
+            background-color: #f07b71;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            margin: 10px 6px;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .header button:hover {
+            background-color: #d55a50;
+        }
+
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            margin: 20px auto;
+        }
+
+        #chatbox {
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            height: 200px;
+            padding: 15px;
+            overflow-y: auto;
+            background: #fff;
+            margin-bottom: 15px;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 70px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #sendBtn {
+            padding: 10px 20px;
+            background-color: #ffc107;
+            border: none;
+            border-radius: 5px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        .quick-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .quick-buttons button {
+            background-color: #333;
+            color: white;
+            padding: 8px 14px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .quick-buttons button:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Power Outage Report System</h1>
+    <label for="modelSelect">Select Open LLM Model:</label>
+   <label for="modelSelect">Select Open LLM Model:</label>
+<select id="modelSelect">
+    <option value="mistral-org">Mistral-org</option>
+    <option value="mistral-opt">Mistral-opt</option>
+</select>
+
+    <br>
+    <button onclick="navigateTo('XMLStandardization.html')">Power Outage Report Standardization</button>
+    <button onclick="navigateTo('XMLGeneration.html')">Power Outage Report Generation</button>
+</div>
+
+<div class="container">
+    <h2>Power Outage Chatbot</h2>
+    <div id="chatbox">
+        <p><strong>Bot:</strong> Hello! Ask me about power outages.</p>
+    </div>
+    <input type="text" id="userInput" placeholder="Type your question here..." />
+    <button id="sendBtn" onclick="sendMessage()">Send</button>
+
+    <div class="quick-buttons">
+        <button onclick="sendQuick('Outage Status')">Outage Status</button>
+        <button onclick="sendQuick('Last Outage')">Last Outage</button>
+        <button onclick="sendQuick('Outage Duration')">Outage Duration</button>
+        <button onclick="sendQuick('Affected Areas')">Affected Areas</button>
+        <button onclick="clearChat()">Clear Chat</button>
+    </div>
+</div>
+
+<script>
+    function navigateTo(url) {
+        window.location.href = url;
+    }
+
+    function sendMessage() {
+        const input = document.getElementById("userInput");
+        const chatbox = document.getElementById("chatbox");
+        if (input.value.trim() === "") return;
+
+        chatbox.innerHTML += `<p><strong>You:</strong> ${input.value}</p>`;
+        // Placeholder response
+        chatbox.innerHTML += `<p><strong>Bot:</strong> Processing your request about "${input.value}"...</p>`;
+        input.value = "";
+        chatbox.scrollTop = chatbox.scrollHeight;
+    }
+
+    function sendQuick(message) {
+        document.getElementById("userInput").value = message;
+        sendMessage();
+    }
+
+    function clearChat() {
+        document.getElementById("chatbox").innerHTML = '<p><strong>Bot:</strong> Hello! Ask me about power outages.</p>';
+    }
+</script>
+
+</body>
+</html>
+

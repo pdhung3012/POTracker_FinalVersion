@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+  <ns0:Outage>
+    <ns0:mRID>30d77369-2b12-4c0d-867d-31b2e7a4f18a_42</ns0:mRID>
+    <ns0:communityDescriptor>36009</ns0:communityDescriptor>
+    <ns0:cause>No outage</ns0:cause>
+    <ns0:metersAffected>0</ns0:metersAffected>
+    <ns0:outageKind>outageReported</ns0:outageKind>
+    <ns0:reportedStartTime>2025-03-06T10:10:07Z</ns0:reportedStartTime>
+    <ns0:statusKind>fieldComplete</ns0:statusKind>
+    <ns0:actualPeriod>
+      <ns0:start>2025-03-06T10:10:07Z</ns0:start>
+    </ns0:actualPeriod>
+    <ns0:OutageArea>
+      <ns0:metersServed>523</ns0:metersServed>
+      <ns0:outageAreaKind>county</ns0:outageAreaKind>
+    </ns0:OutageArea>
+    <ns0:Incident>
+      <ns0:cause>No incident</ns0:cause>
+    </ns0:Incident>
+  </ns0:Outage>
+</ns0:PubOutages>

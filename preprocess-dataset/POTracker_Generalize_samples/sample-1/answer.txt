@@ -1,0 +1,89 @@
+According to the provided data from the input JSON, here's the current power outage status for Ohio:
+
+Overall:
+
+State: OHIO
+
+Customers Affected: 402
+
+Total Customers Served: 2,100,210
+
+Percent Customers Affected: 0.02%
+
+Estimated Time of Restoration (ETR): 2025-03-07T17:00:00Z
+
+Areas with reported outages:
+WOOD County:
+
+Customers Affected: 1
+
+Customers Served: 40,933
+
+Percent Customers Affected: 0.01%
+
+ETR: 2025-03-07T15:00:00Z
+
+Specifically, PERRYSBURG Township has an outage with 1 customer affected out of 12,670 served.
+
+OTTAWA County:
+
+Customers Affected: 1
+
+Customers Served: 32,426
+
+Percent Customers Affected: 0.01%
+
+ETR: 2025-03-07T15:00:00Z
+
+Specifically, ERIE Township has an outage with 1 customer affected out of 1,253 served.
+
+SUMMIT County:
+
+Customers Affected: 1
+
+Customers Served: 227,162
+
+Percent Customers Affected: 0.01%
+
+ETR: 2025-03-07T16:00:00Z
+
+Specifically, COVENTRY Township has an outage with 1 customer affected out of 7,316 served.
+
+TRUMBULL County:
+
+Customers Affected: 38
+
+Customers Served: 80,314
+
+Percent Customers Affected: 0.05%
+
+ETR: 2025-03-07T16:00:00Z
+
+Specifically:
+
+CORTLAND Township: 8 customers affected out of 3,715 served.
+
+GIRARD Township: 20 customers affected out of 4,807 served.
+
+LIBERTY Township: 10 customers affected out of 6,518 served.
+
+ERIE County:
+
+Customers Affected: 17
+
+Customers Served: 41,032
+
+Percent Customers Affected: 0.04%
+
+ETR: 2025-03-07T16:30:00Z
+
+Specifically, BERLIN Township: 15 customers affected out of 1,367 served, and BERLIN HEIGHTS Township: 2 customers affected out of 420 served.
+
+Summary Statistics:
+Total Customers Affected in Ohio: 402
+
+Percentage Affected: 0.02%
+
+Affected Counties: WOOD, OTTAWA, SUMMIT, TRUMBULL, ERIE.
+
+If you would like this data structured according to the ODIN standardized XML format, please let me know!

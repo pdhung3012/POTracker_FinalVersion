@@ -1,0 +1,12 @@
+{
+  'state': 'M',
+  'county': 'ATTALA',
+  'customersServed': 5350,
+  'customersAffected': 0,
+  'percentageWithPower': 100.0,
+  'lastUpdatedTime': 1741376607057,
+  'latitude': 33.094228329809724,
+  'longitude': -89.81118393234672,
+  'file_name': 'county3.json',
+  'content_index': 2
+}

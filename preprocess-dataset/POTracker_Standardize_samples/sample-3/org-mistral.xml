@@ -1,0 +1,10 @@
+<PubOutages>
+  <Outage>
+    <county>ATTALA</county>
+    <affectedMeters>zero</affectedMeters>
+    <powerRestored>100%</powerRestored>
+    <latitude>33.094228329809724</latitude>
+    <longitude>-89.81118393234672</longitude>
+    <updatedTime>recently</updatedTime>
+  </Outage>
+</PubOutages>

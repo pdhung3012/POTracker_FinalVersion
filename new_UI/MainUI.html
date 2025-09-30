@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Outage Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .report-container {
+            background-color: #fff3cd; /* Light yellow background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .chatbox {
+            border: 1px solid #666;
+            border-radius: 5px;
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+            background: #fefefe;
+            text-align: left;
+        }
+
+        .input-box {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .send-btn {
+            background: #ffcc00; /* Yellow for attention */
+            color: black;
+        }
+
+        .send-btn:hover {
+            background: #e0b800;
+        }
+
+        .sample-btn {
+            background: #333; /* Dark gray */
+            color: white;
+        }
+
+        .sample-btn:hover {
+            background: #111;
+        }
+
+        .report-btn {
+            background-color: #ff6b6b; /* Alert red */
+            color: white;
+        }
+
+        .report-btn:hover {
+            background-color: #d9534f;
+        }
+
+        .dropdown {
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Power Outage Report System UI-->
+
+<div class = "report-container">
+    <h2>Power Outage Report System</h2>
+    <p> Select Open LLM Model:</p>
+    <select class = "dropdown">
+        <option>Mistral</option>
+        <option>Llama 2</option>
+        <option>GPT-3.5</option>
+    </select>
+    <button class="report-btn" onclick="navigateTo('XMLStandardization.html')">Power Outage Report Standardization</button>
+    <button class="report-btn" onclick="navigateTo('XMLGeneration.html')">Power Outage Report Generation</button>
+
+</div>
+
+<div class="container">
+    <h2>Power Outage Chatbot</h2>
+
+    <!-- Chatbox -->
+    <div class="chatbox" id="chatbox">
+        <p><b>Bot:</b> Hello! Ask me about power outages.</p>
+    </div>
+
+    <!-- Input Field -->
+    <div class="input-box">
+        <input type="text" id="userInput" placeholder="Type your question here...">
+        <button class="send-btn" onclick="sendMessage()">Send</button>
+    </div>
+
+    <!-- Sample Questions -->
+    <h4>Quick Questions:</h4>
+    <button class="sample-btn" onclick="setSample('What is the current power outage status?')">Outage Status</button>
+    <button class="sample-btn" onclick="setSample('When was the last recorded power outage?')">Last Outage</button>
+    <button class="sample-btn" onclick="setSample('How long do outages typically last?')">Outage Duration</button>
+    <button class="sample-btn" onclick="setSample('What areas are affected by the latest outage?')">Affected Areas</button>
+
+    <button class = "sample-btn" onclick = "clearChat()">Clear Chat</button>
+</div>
+
+<script>
+    // Allows capture model selection from the dropdown
+    let selectedModel = "Mistral";
+    document.querySelector(".dropdown").addEventListener("change", function() {
+        selectedModel = this.value;
+        console.log("Selected Model: ", selectedModel);
+    });
+
+    // Allows enter key to send message
+    document.getElementById("userInput").addEventListener("keypress", function(event){
+        if(event.key == "Enter"){
+            sendMessage();
+        }
+    });
+    
+    function sendMessage() {
+        let chatbox = document.getElementById("chatbox");
+        let inputField = document.getElementById("userInput");
+        let message = inputField.value.trim();
+        if (message === "") return;
+
+        // Shows user message
+        chatbox.innerHTML += `<p class="user"><b>You:</b> ${message}</p>`;
+        chatbox.scrollTop = chatbox.scrollHeight;
+
+        // Show "typing.." placeholder
+        chatbox.innerHTML += '<p id="loading"><i>Bot is typing...</i></p>';
+        inputField.value = "";
+
+        // Simulated response (Replace this with API integration)
+        // Replace last bot message with the actual reply
+        setTimeout(() => {
+            document.getElementById("loading").remove(); // Remove loading text
+            let botReply = generateResponse(message);
+            chatbox.innerHTML += `<p><b>Bot:</b> ${botReply}</p>`;
+            chatbox.scrollTop = chatbox.scrollHeight;
+        }, 1500);
+    }
+
+    function generateResponse(question) {
+        // Simulated responses
+        // Converts all the string input into lowercase
+        question = question.toLowerCase();
+
+        // Use keyword-based matching instead of exact matches
+        if(question.includes("current") && question.includes("status")){
+            return  "The current outage status shows no active outages in Oak Ridge National Lab.";
+        } else if (question.includes("last") && question.includes("outage")){
+            return "The last power outage was recorded on March 5, 2024, and lasted for 2 hours.";
+        } else if (question.includes("how long") || question.includes("duration")){
+            return "On average, power outages last between 1 to 3 hours in Oak Ridge National Lab.";
+        } else if (question.includes("affected") || question.includes("areas")){
+            return "The latest outage affected the East Facility and Research Block B.";
+        } else {
+            return "I'm not sure about that. Please refer to the Oak Ridge National Lab outage database.";
+        }
+    }
+
+    function setSample(question) {
+        document.getElementById("userInput").value = question;
+    }
+
+    function navigateTo(url){
+        window.location.href= url
+    }
+
+    function clearChat(){
+        let chatbox = document.getElementById("chatbox");
+        chatbox.innerHTML = '<p><b>Bot:</b> Hello! Ask me about power outages.</p>';
+    }
+
+    // Automatically place the cursor in the input field when the page loads
+    window.onload = function() {
+        document.getElementById("userInput").focus();
+    }
+</script>
+
+</body>
+</html>

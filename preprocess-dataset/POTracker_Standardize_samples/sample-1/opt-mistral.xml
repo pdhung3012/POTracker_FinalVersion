@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+   <ns0:Outage>
+      <ns0:mRID>2025-03-07-0445</ns0:mRID>
+      <ns0:communityDescriptor>TRF_1335752010</ns0:communityDescriptor>
+      <ns0:cause>Pending Investigation</ns0:cause>
+      <ns0:causeKind>Event Kind to Cause Outage</ns0:causeKind>
+      <ns0:metersAffected>1</ns0:metersAffected>
+      <ns0:outageKind>outageReported</ns0:outageKind>
+      <ns0:reportedStartTime>2025-03-07T13:13:02-06:00</ns0:reportedStartTime>
+      <ns0:statusKind>outageStatusKind</ns0:statusKind>
+      <ns0:utilityDisclaimer>Utility Disclaimer Text</ns0:utilityDisclaimer>
+      <ns0:actualPeriod>
+         <ns0:start>2025-03-07T13:13:02-06:00</ns0:start>
+      </ns0:actualPeriod>
+      <ns0:EstimatedRestorationTime>
+         <ns0:ert>2025-03-07T13:13:02-06:00</ns0:ert>
+         <ns0:confidenceKind>low</ns0:confidenceKind>
+         <ns0:ertSource>Source of ERT</ns0:ertSource>
+      </ns0:EstimatedRestorationTime>
+      <ns0:OutageArea>
+         <ns0:metersServed>1</ns0:metersServed>
+         <ns0:outageAreaKind>SERVICE_AREA</ns0:outageAreaKind>
+      </ns0:OutageArea>
+      <ns0:Incident>
+         <ns0:cause>Pending Investigation</ns0:cause>
+         <ns0:Location>
+            <ns0:PositionPoints>
+               <ns0:sequenceNumber>1</ns0:sequenceNumber>
+               <ns0:xPosition>31.28250642</ns0:xPosition>
+               <ns0:yPosition>-90.25191364</ns0:yPosition>
+            </ns0:PositionPoints>
+         </ns0:Location>
+      </ns0:Incident>
+      <ns0:Names>
+         <ns0:name>ENTER_UTILITY_ID</ns0:name>
+         <ns0:nameType>UtilityID</ns0:nameType>
+         <ns0:nameTypeAuthority>Source for name information (preferably EIA)</ns0:nameTypeAuthority>
+      </ns0:Names>
+      <ns0:Names>
+         <ns0:name>ENTER_UTILITY_NAME</ns0:name>
+         <ns0:nameType>UtilityName</ns0:nameType>
+         <ns0:nameTypeAuthority>Source for name information (preferably EIA)</ns0:nameTypeAuthority>
+      </ns0:Names>
+   </ns0:Outage>
+</ns0:PubOutages>

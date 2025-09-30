@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+  <ns0:Outage>
+    <ns0:mRID>111</ns0:mRID>
+    <ns0:communityDescriptor>LITCHFIELD</ns0:communityDescriptor>
+    <ns0:metersAffected>0</ns0:metersAffected>
+    <ns0:outageKind>outageReported</ns0:outageKind>
+    <ns0:reportedStartTime>2023-06-26T00:00:00Z</ns0:reportedStartTime>
+    <ns0:OutageArea>
+      <ns0:metersServed>3620</ns0:metersServed>
+      <ns0:outageAreaKind>serviceArea</ns0:outageAreaKind>
+    </ns0:OutageArea>
+  </ns0:Outage>
+</ns0:PubOutages>

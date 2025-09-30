@@ -1,0 +1,544 @@
+Input Json:
+
+{'key': 'county', 'name': 'COLUMBIANA', 'cust_a': {'val': 0}, 'cust_s': 31173, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-81.08735973899996, 40.64008686100004, -80.51918243699998, 40.92996444500005]}, 'areas': [{'key': 'Township', 'name': 'FAIRFIELD TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 1510, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.74645017299997, 40.81307330800007, -80.63185454499995, 40.90050880700005]}, 'areaId': 'OE|COLUMBIANA|OHIO|FAIRFIELD TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 280}, {'key': 'Township', 'name': 'HANOVERTON', 'cust_a': {'val': 0}, 'cust_s': 398, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.94330957499994, 40.74869430000007, -80.92718545399998, 40.76049196200006]}, 'areaId': 'OE|COLUMBIANA|OHIO|HANOVERTON|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 281}, {'key': 'Township', 'name': 'FRANKLIN TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 65, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.91818973299996, 40.642263822000075, -80.84097426999995, 40.72677272000004]}, 'areaId': 'OE|COLUMBIANA|OHIO|FRANKLIN TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 282}, {'key': 'Township', 'name': 'EAST PALESTINE', 'cust_a': {'val': 0}, 'cust_s': 2414, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.57565054099996, 40.817540361000056, -80.52383297299997, 40.86354183700007]}, 'areaId': 'OE|COLUMBIANA|OHIO|EAST PALESTINE|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 283}, {'key': 'Township', 'name': 'BUTLER TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 1548, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.97489668999998, 40.813283297000055, -80.85711147699999, 40.90131448400007]}, 'areaId': 'OE|COLUMBIANA|OHIO|BUTLER TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 284}, {'key': 'Township', 'name': 'LEETONIA', 'cust_a': {'val': 0}, 'cust_s': 1012, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.78367653199996, 40.86633621000004, -80.74162228999995, 40.88614348500005]}, 'areaId': 'OE|COLUMBIANA|OHIO|LEETONIA|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 285}, {'key': 'Township', 'name': 'SALEM TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 1368, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.85841991299998, 40.81330775400005, -80.74588667299997, 40.90087289600007]}, 'areaId': 'OE|COLUMBIANA|OHIO|SALEM TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 286}, {'key': 'Township', 'name': 'NEW WATERFORD', 'cust_a': {'val': 0}, 'cust_s': 679, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.63207432899998, 40.84098827200006, -80.60872873099999, 40.85642188400004]}, 'areaId': 'OE|COLUMBIANA|OHIO|NEW WATERFORD|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 287}, {'key': 'Township', 'name': 'UNITY TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 1582, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.63206071099995, 40.81284765800007, -80.51918243699998, 40.90026858500005]}, 'areaId': 'OE|COLUMBIANA|OHIO|UNITY TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 288}, {'key': 'Township', 'name': 'HANOVER TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 1621, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.97512292899995, 40.72656377700008, -80.85843166599994, 40.81379147700005]}, 'areaId': 'OE|COLUMBIANA|OHIO|HANOVER TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 289}, {'key': 'Township', 'name': 'PERRY TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 2292, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.89624815399998, 40.87113239800004, -80.82007089199999, 40.92996444500005]}, 'areaId': 'OE|COLUMBIANA|OHIO|PERRY TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 290}, {'key': 'Township', 'name': 'KNOX TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 2156, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-81.08708799999994, 40.81379147700005, -80.97479401199996, 40.90159919900003]}, 'areaId': 'OE|COLUMBIANA|OHIO|KNOX TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 291}, {'key': 'Township', 'name': 'ROGERS', 'cust_a': {'val': 0}, 'cust_s': 216, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.63205401499994, 40.786015649000035, -80.62281272799999, 40.79402747600005]}, 'areaId': 'OE|COLUMBIANA|OHIO|ROGERS|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 292}, {'key': 'Township', 'name': 'WAYNE TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 135, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.84183534499994, 40.65393350000005, -80.74646940299994, 40.726647557000035]}, 'areaId': 'OE|COLUMBIANA|OHIO|WAYNE TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 293}, {'key': 'Township', 'name': 'WEST TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 1465, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-81.08735973899996, 40.726902245000076, -80.97479401199996, 40.81383704500007]}, 'areaId': 'OE|COLUMBIANA|OHIO|WEST TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 294}, {'key': 'Township', 'name': 'SALEM', 'cust_a': {'val': 0}, 'cust_s': 6567, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.89007984299997, 40.87885881200003, -80.81068258599998, 40.92552881100005]}, 'areaId': 'OE|COLUMBIANA|OHIO|SALEM|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 295}, {'key': 'Township', 'name': 'MADISON TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 122, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.74691419899995, 40.64008686100004, -80.63195197499994, 40.72690387200004]}, 'areaId': 'OE|COLUMBIANA|OHIO|MADISON TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 296}, {'key': 'Township', 'name': 'SAINT CLAIR TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 41, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.63198340999998, 40.65409208700004, -80.51924447799996, 40.72690387200004]}, 'areaId': 'OE|COLUMBIANA|OHIO|SAINT CLAIR TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 297}, {'key': 'Township', 'name': 'LISBON', 'cust_a': {'val': 0}, 'cust_s': 1887, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.78191361399996, 40.76431096400006, -80.73098735599996, 40.78852464000005]}, 'areaId': 'OE|COLUMBIANA|OHIO|LISBON|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 298}, {'key': 'Township', 'name': 'CENTER TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 1445, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.85977167399994, 40.72648728400003, -80.74645017299997, 40.813893259000054]}, 'areaId': 'OE|COLUMBIANA|OHIO|CENTER TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 299}, {'key': 'Township', 'name': 'MIDDLETON TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 1458, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.63197825599997, 40.72593986900006, -80.51927849799995, 40.81307330800007]}, 'areaId': 'OE|COLUMBIANA|OHIO|MIDDLETON TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 300}, {'key': 'Township', 'name': 'WASHINGTONVILLE', 'cust_a': {'val': 0}, 'cust_s': 174, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.77852248299996, 40.88610664500004, -80.75782493599996, 40.902747601000044]}, 'areaId': 'OE|COLUMBIANA|OHIO|WASHINGTONVILLE|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 301}, {'key': 'Township', 'name': 'ELK RUN TOWNSHIP', 'cust_a': {'val': 0}, 'cust_s': 840, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.74691419899995, 40.72648728400003, -80.63192255499996, 40.81330775400005]}, 'areaId': 'OE|COLUMBIANA|OHIO|ELK RUN TOWNSHIP|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 302}, {'key': 'Township', 'name': 'COLUMBIANA', 'cust_a': {'val': 0}, 'cust_s': 178, 'percent_cust_a': {'val': 0.0}, 'etr': None, 'etr_confidence': None, 'gotoMap': {'bbox': [-80.71515562399998, 40.86387616700006, -80.62431900399997, 40.914649868000026]}, 'areaId': 'OE|COLUMBIANA|OHIO|COLUMBIANA|Township', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 303}], 'areaId': 'OE|COLUMBIANA|county', 'n_out': 0, 'county': 'COLUMBIANA', 'state': 'OHIO', 'file_name': 'fd1bf760-8425-4df6-82a2-e05538f7f336_report.json', 'content_index': 13}
+
+Output as XML standard:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+  <ns0:Outage>
+    <!-- Unique outage event identifier -->
+    <ns0:mRID>OUTAGE-COLUMBIANA-20250929</ns0:mRID>
+
+    <!-- County-level descriptor (FIPS should be used if available) -->
+    <ns0:communityDescriptor>COLUMBIANA</ns0:communityDescriptor>
+
+    <!-- Outage metadata -->
+    <ns0:cause>Pending Investigation</ns0:cause>
+    <ns0:causeKind>unplanned</ns0:causeKind>
+    <ns0:metersAffected>0</ns0:metersAffected>
+    <ns0:outageKind>outageReported</ns0:outageKind>
+    <ns0:statusKind>assigned</ns0:statusKind>
+    <ns0:utilityDisclaimer>Preliminary data – subject to change</ns0:utilityDisclaimer>
+
+    <!-- County outage area summary -->
+    <ns0:OutageArea>
+      <ns0:metersServed>31173</ns0:metersServed>
+      <ns0:outageAreaKind>county</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <!-- Township/area details -->
+    <ns0:OutageArea>
+      <ns0:metersServed>1510</ns0:metersServed>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+      <ns0:communityDescriptor>FAIRFIELD TOWNSHIP</ns0:communityDescriptor>
+    </ns0:OutageArea>
+
+    <ns0:OutageArea>
+      <ns0:metersServed>398</ns0:metersServed>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+      <ns0:communityDescriptor>HANOVERTON</ns0:communityDescriptor>
+    </ns0:OutageArea>
+
+    <ns0:OutageArea>
+      <ns0:metersServed>65</ns0:metersServed>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+      <ns0:communityDescriptor>FRANKLIN TOWNSHIP</ns0:communityDescriptor>
+    </ns0:OutageArea>
+
+    <!-- Repeat ns0:OutageArea for each township in the input -->
+    <!-- Example below for SALEM -->
+    <ns0:OutageArea>
+      <ns0:metersServed>6567</ns0:metersServed>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+      <ns0:communityDescriptor>SALEM</ns0:communityDescriptor>
+    </ns0:OutageArea>
+
+    <!-- Utility identifiers (EIA preferred) -->
+    <ns0:Names>
+      <ns0:name>ENTER_UTILITY_ID</ns0:name>
+      <ns0:nameType>UtilityID</ns0:nameType>
+      <ns0:nameTypeAuthority>EIA</ns0:nameTypeAuthority>
+    </ns0:Names>
+    <ns0:Names>
+      <ns0:name>ENTER_UTILITY_NAME</ns0:name>
+      <ns0:nameType>UtilityName</ns0:nameType>
+      <ns0:nameTypeAuthority>EIA</ns0:nameTypeAuthority>
+    </ns0:Names>
+  </ns0:Outage>
+</ns0:PubOutages>
+
+
+Normalize code:
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+  <ns0:Outage>
+    <!-- Unique outage event identifier -->
+    <ns0:mRID>OUTAGE-COLUMBIANA-20250929</ns0:mRID>
+
+    <!-- County-level outage summary -->
+    <ns0:communityDescriptor>COLUMBIANA</ns0:communityDescriptor>
+    <ns0:metersAffected>0</ns0:metersAffected>
+    <ns0:outageKind>outageReported</ns0:outageKind>
+    <ns0:statusKind>assigned</ns0:statusKind>
+
+    <!-- County OutageArea -->
+    <ns0:OutageArea>
+      <ns0:metersServed>31173</ns0:metersServed>
+      <ns0:outageAreaKind>county</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <!-- Township OutageAreas -->
+    <ns0:OutageArea>
+      <ns0:communityDescriptor>FAIRFIELD TOWNSHIP</ns0:communityDescriptor>
+      <ns0:metersServed>1510</ns0:metersServed>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <ns0:OutageArea>
+      <ns0:communityDescriptor>HANOVERTON</ns0:communityDescriptor>
+      <ns0:metersServed>398</ns0:metersServed>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <ns0:OutageArea>
+      <ns0:communityDescriptor>FRANKLIN TOWNSHIP</ns0:communityDescriptor>
+      <ns0:metersServed>65</ns0:metersServed>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <!-- … repeat OutageArea for each township … -->
+
+    <ns0:OutageArea>
+      <ns0:communityDescriptor>COLUMBIANA</ns0:communityDescriptor>
+      <ns0:metersServed>178</ns0:metersServed>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <!-- Utility identifiers -->
+    <ns0:Names>
+      <ns0:name>ENTER_UTILITY_ID</ns0:name>
+      <ns0:nameType>UtilityID</ns0:nameType>
+      <ns0:nameTypeAuthority>EIA</ns0:nameTypeAuthority>
+    </ns0:Names>
+    <ns0:Names>
+      <ns0:name>ENTER_UTILITY_NAME</ns0:name>
+      <ns0:nameType>UtilityName</ns0:nameType>
+      <ns0:nameTypeAuthority>EIA</ns0:nameTypeAuthority>
+    </ns0:Names>
+  </ns0:Outage>
+</ns0:PubOutages>
+
+Code C (High Text Similarity, Low Structural Similarity):
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+  <ns0:Outage>
+    <ns0:mRID>OUTAGE-COLUMBIANA-20250929</ns0:mRID>
+    <ns0:communityDescriptor>COLUMBIANA</ns0:communityDescriptor>
+    <ns0:metersAffected>0</ns0:metersAffected>
+
+    <!-- Instead of OutageArea, use Incident blocks to hold township info -->
+    <ns0:Incident>
+      <ns0:cause>Pending Investigation</ns0:cause>
+      <ns0:Location>
+        <ns0:geoInfoReference>FAIRFIELD TOWNSHIP</ns0:geoInfoReference>
+        <ns0:kind>township</ns0:kind>
+        <ns0:PositionPoints>
+          <ns0:sequenceNumber>1</ns0:sequenceNumber>
+          <ns0:xPosition>1510</ns0:xPosition>
+          <ns0:yPosition>0</ns0:yPosition>
+        </ns0:PositionPoints>
+      </ns0:Location>
+    </ns0:Incident>
+
+    <ns0:Incident>
+      <ns0:cause>Pending Investigation</ns0:cause>
+      <ns0:Location>
+        <ns0:geoInfoReference>HANOVERTON</ns0:geoInfoReference>
+        <ns0:kind>township</ns0:kind>
+        <ns0:PositionPoints>
+          <ns0:sequenceNumber>1</ns0:sequenceNumber>
+          <ns0:xPosition>398</ns0:xPosition>
+          <ns0:yPosition>0</ns0:yPosition>
+        </ns0:PositionPoints>
+      </ns0:Location>
+    </ns0:Incident>
+
+    <!-- Utility still present -->
+    <ns0:Names>
+      <ns0:name>ENTER_UTILITY_ID</ns0:name>
+      <ns0:nameType>UtilityID</ns0:nameType>
+    </ns0:Names>
+  </ns0:Outage>
+</ns0:PubOutages>
+
+
+Code D (Low Text Similarity, High Structural Similarity):
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+  <ns0:Outage>
+    <ns0:mRID>OUTAGE-MIDWEST-TEST-20251001</ns0:mRID>
+    <ns0:communityDescriptor>RIVER COUNTY</ns0:communityDescriptor>
+    <ns0:metersAffected>45</ns0:metersAffected>
+    <ns0:outageKind>planned</ns0:outageKind>
+    <ns0:statusKind>enroute</ns0:statusKind>
+
+    <ns0:OutageArea>
+      <ns0:metersServed>9023</ns0:metersServed>
+      <ns0:outageAreaKind>county</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <ns0:OutageArea>
+      <ns0:communityDescriptor>OAK VALLEY</ns0:communityDescriptor>
+      <ns0:metersServed>2120</ns0:metersServed>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <ns0:OutageArea>
+      <ns0:communityDescriptor>MAPLE HILLS</ns0:communityDescriptor>
+      <ns0:metersServed>587</ns0:metersServed>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <ns0:Names>
+      <ns0:name>UTIL-12345</ns0:name>
+      <ns0:nameType>UtilityID</ns0:nameType>
+    </ns0:Names>
+    <ns0:Names>
+      <ns0:name>Great Plains Electric</ns0:name>
+      <ns0:nameType>UtilityName</ns0:nameType>
+    </ns0:Names>
+  </ns0:Outage>
+</ns0:PubOutages>
+
+Code E (Utility Domain, Not Similar to Code B)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<PowerAssetReport xmlns="http://example.org/schema/powerassets">
+  <ReportInfo>
+    <ReportID>ASSET-20251001</ReportID>
+    <GeneratedOn>2025-10-01T09:30:00Z</GeneratedOn>
+    <PreparedBy>GridMonitoringSystem</PreparedBy>
+  </ReportInfo>
+
+  <Assets>
+    <Asset>
+      <AssetID>TX-11234</AssetID>
+      <Type>Transformer</Type>
+      <Location>
+        <Latitude>40.7128</Latitude>
+        <Longitude>-80.2457</Longitude>
+      </Location>
+      <Inspection>
+        <Date>2025-09-20</Date>
+        <Status>Operational</Status>
+        <Inspector>Technician A</Inspector>
+      </Inspection>
+    </Asset>
+
+    <Asset>
+      <AssetID>LN-99871</AssetID>
+      <Type>TransmissionLine</Type>
+      <Length unit="km">12.4</Length>
+      <Location>
+        <StartPoint>-80.2457,40.7128</StartPoint>
+        <EndPoint>-80.1990,40.7654</EndPoint>
+      </Location>
+      <Inspection>
+        <Date>2025-09-15</Date>
+        <Status>Needs Repair</Status>
+        <Inspector>Technician B</Inspector>
+      </Inspection>
+    </Asset>
+  </Assets>
+
+  <CrewAssignments>
+    <Crew>
+      <CrewID>CW-01</CrewID>
+      <Members>4</Members>
+      <Task>Transformer Oil Analysis</Task>
+      <ScheduledDate>2025-10-05</ScheduledDate>
+    </Crew>
+    <Crew>
+      <CrewID>CW-02</CrewID>
+      <Members>3</Members>
+      <Task>Line Clearance</Task>
+      <ScheduledDate>2025-10-06</ScheduledDate>
+    </Crew>
+  </CrewAssignments>
+</PowerAssetReport>
+
+Code G (Rule-Based JSON→XML):
+
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <key>county</key>
+  <name>COLUMBIANA</name>
+  <cust_a>
+    <val>0</val>
+  </cust_a>
+  <cust_s>31173</cust_s>
+  <percent_cust_a>
+    <val>0.0</val>
+  </percent_cust_a>
+  <etr/>
+  <etr_confidence/>
+  <gotoMap>
+    <bbox>-81.08735973899996</bbox>
+    <bbox>40.64008686100004</bbox>
+    <bbox>-80.51918243699998</bbox>
+    <bbox>40.92996444500005</bbox>
+  </gotoMap>
+  <areas>
+    <item>
+      <key>Township</key>
+      <name>FAIRFIELD TOWNSHIP</name>
+      <cust_a>
+        <val>0</val>
+      </cust_a>
+      <cust_s>1510</cust_s>
+      <percent_cust_a>
+        <val>0.0</val>
+      </percent_cust_a>
+      <etr/>
+      <etr_confidence/>
+      <gotoMap>
+        <bbox>-80.74645017299997</bbox>
+        <bbox>40.81307330800007</bbox>
+        <bbox>-80.63185454499995</bbox>
+        <bbox>40.90050880700005</bbox>
+      </gotoMap>
+      <areaId>OE|COLUMBIANA|OHIO|FAIRFIELD TOWNSHIP|Township</areaId>
+      <n_out>0</n_out>
+      <county>COLUMBIANA</county>
+      <state>OHIO</state>
+      <file_name>fd1bf760-8425-4df6-82a2-e05538f7f336_report.json</file_name>
+      <content_index>280</content_index>
+    </item>
+
+    <item>
+      <key>Township</key>
+      <name>HANOVERTON</name>
+      <cust_a>
+        <val>0</val>
+      </cust_a>
+      <cust_s>398</cust_s>
+      <percent_cust_a>
+        <val>0.0</val>
+      </percent_cust_a>
+      <etr/>
+      <etr_confidence/>
+      <gotoMap>
+        <bbox>-80.94330957499994</bbox>
+        <bbox>40.74869430000007</bbox>
+        <bbox>-80.92718545399998</bbox>
+        <bbox>40.76049196200006</bbox>
+      </gotoMap>
+      <areaId>OE|COLUMBIANA|OHIO|HANOVERTON|Township</areaId>
+      <n_out>0</n_out>
+      <county>COLUMBIANA</county>
+      <state>OHIO</state>
+      <file_name>fd1bf760-8425-4df6-82a2-e05538f7f336_report.json</file_name>
+      <content_index>281</content_index>
+    </item>
+
+    <!-- ... repeat <item> for each area ... -->
+
+  </areas>
+  <areaId>OE|COLUMBIANA|county</areaId>
+  <n_out>0</n_out>
+  <county>COLUMBIANA</county>
+  <state>OHIO</state>
+  <file_name>fd1bf760-8425-4df6-82a2-e05538f7f336_report.json</file_name>
+  <content_index>13</content_index>
+</root>
+
+Code H: transforming with defined transformation rules:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+  <ns0:Outage>
+    <!-- Unique identifier for the outage -->
+    <ns0:mRID>OUTAGE-COLUMBIANA-20250929</ns0:mRID>
+
+    <!-- County-level descriptor -->
+    <ns0:communityDescriptor>COLUMBIANA</ns0:communityDescriptor>
+    <ns0:metersAffected>0</ns0:metersAffected>
+    <ns0:outageKind>outageReported</ns0:outageKind>
+    <ns0:statusKind>assigned</ns0:statusKind>
+
+    <!-- County OutageArea -->
+    <ns0:OutageArea>
+      <ns0:metersServed>31173</ns0:metersServed>
+      <ns0:outageAreaKind>county</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <!-- Township OutageAreas generated from JSON "areas" array -->
+    <ns0:OutageArea>
+      <ns0:communityDescriptor>FAIRFIELD TOWNSHIP</ns0:communityDescriptor>
+      <ns0:metersServed>1510</ns0:metersServed>
+      <ns0:metersAffected>0</ns0:metersAffected>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <ns0:OutageArea>
+      <ns0:communityDescriptor>HANOVERTON</ns0:communityDescriptor>
+      <ns0:metersServed>398</ns0:metersServed>
+      <ns0:metersAffected>0</ns0:metersAffected>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <ns0:OutageArea>
+      <ns0:communityDescriptor>FRANKLIN TOWNSHIP</ns0:communityDescriptor>
+      <ns0:metersServed>65</ns0:metersServed>
+      <ns0:metersAffected>0</ns0:metersAffected>
+      <ns0:outageAreaKind>township</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <!-- … repeat for all other areas in the JSON … -->
+
+    <!-- Utility identifiers (required by ODIN) -->
+    <ns0:Names>
+      <ns0:name>ENTER_UTILITY_ID</ns0:name>
+      <ns0:nameType>UtilityID</ns0:nameType>
+      <ns0:nameTypeAuthority>EIA</ns0:nameTypeAuthority>
+    </ns0:Names>
+    <ns0:Names>
+      <ns0:name>ENTER_UTILITY_NAME</ns0:name>
+      <ns0:nameType>UtilityName</ns0:nameType>
+      <ns0:nameTypeAuthority>EIA</ns0:nameTypeAuthority>
+    </ns0:Names>
+  </ns0:Outage>
+</ns0:PubOutages>
+
+
+Algorithm 1:
+
+\documentclass{article}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+
+\begin{document}
+
+\begin{algorithm}[H]
+\caption{Rule-based JSON to XML Transformation}
+\KwIn{JSON object $J$}
+\KwOut{XML document $X$}
+
+\SetKwFunction{FTransform}{Transform}
+\SetKwProg{Fn}{Function}{:}{}
+
+\Fn{\FTransform{$J$, $parentTag$}}{
+  \ForEach{key--value pair $(k, v)$ in $J$}{
+    \uIf{$v$ is a primitive (string, number, boolean)}{
+       Emit start-tag $<k>$\;
+       Emit text $v$\;
+       Emit end-tag $</k>$\;
+    }
+    \uElseIf{$v$ is \texttt{null}}{
+       Emit empty tag $<k/>$\;
+    }
+    \uElseIf{$v$ is an object}{
+       Emit start-tag $<k>$\;
+       \FTransform{$v$, $k$}\;
+       Emit end-tag $</k>$\;
+    }
+    \uElseIf{$v$ is an array}{
+       Emit start-tag $<k>$\;
+       \ForEach{element $e$ in $v$}{
+          Emit start-tag $<item>$\;
+          \FTransform{$e$, ``item''}\;
+          Emit end-tag $</item>$\;
+       }
+       Emit end-tag $</k>$\;
+    }
+  }
+}
+\vspace{0.2cm}
+\textbf{Main:}\;
+\FTransform{Root JSON object $J$, ``root''}\;
+
+\end{algorithm}
+
+\end{document}
+
+
+Algorithm 2:
+
+\documentclass{article}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+
+\begin{document}
+
+\begin{algorithm}[H]
+\caption{JSON to ODIN CIM IEC 61968-3 XML Transformation}
+\KwIn{JSON outage report $J$}
+\KwOut{XML document $X$ following ODIN schema}
+
+\SetKwFunction{FTransform}{Transform}
+\SetKwProg{Fn}{Function}{:}{}
+
+\Fn{\FTransform{$J$, $parentTag$}}{
+
+  \If{$parentTag$ is \texttt{root}}{
+    Emit start-tag \texttt{<ns0:PubOutages>}\;
+    Emit start-tag \texttt{<ns0:Outage>}\;
+    Assign unique \texttt{mRID} from metadata\;
+  }
+
+  \ForEach{key--value pair $(k, v)$ in $J$}{
+    \uIf{$k$ = ``name'' and $parentTag$ = ``county''}{
+       Emit \texttt{<ns0:communityDescriptor>} $v$ \texttt{</ns0:communityDescriptor>}\;
+    }
+    \uElseIf{$k$ = ``cust\_s''}{
+       Emit \texttt{<ns0:metersServed>} $v$ \texttt{</ns0:metersServed>}\;
+    }
+    \uElseIf{$k$ = ``cust\_a.val''}{
+       Emit \texttt{<ns0:metersAffected>} $v$ \texttt{</ns0:metersAffected>}\;
+    }
+    \uElseIf{$k$ = ``areas'' (array)}{
+       \ForEach{element $e$ in $v$}{
+          Emit start-tag \texttt{<ns0:OutageArea>}\;
+          Map $e.name$ → \texttt{<ns0:communityDescriptor>}\;
+          Map $e.cust\_s$ → \texttt{<ns0:metersServed>}\;
+          Map $e.cust\_a.val$ → \texttt{<ns0:metersAffected>}\;
+          Emit fixed tag \texttt{<ns0:outageAreaKind>township</ns0:outageAreaKind>}\;
+          Emit end-tag \texttt{</ns0:OutageArea>}\;
+       }
+    }
+    \uElseIf{$k$ = ``county.cust\_s''}{
+       Emit \texttt{<ns0:OutageArea>} with
+       \texttt{<ns0:metersServed>} $v$ \texttt{</ns0:metersServed>}
+       and \texttt{<ns0:outageAreaKind>county</ns0:outageAreaKind>}\;
+    }
+  }
+
+  \If{$parentTag$ is \texttt{root}}{
+    Emit utility identifiers under \texttt{<ns0:Names>}\;
+    Emit end-tag \texttt{</ns0:Outage>}\;
+    Emit end-tag \texttt{</ns0:PubOutages>}\;
+  }
+
+}
+
+\vspace{0.2cm}
+\textbf{Main:}\;
+\FTransform{Root JSON object $J$, ``root''}\;
+
+\end{algorithm}
+
+\end{document}
+
+
+Rule changed:
+
+Rule 1 (Object): County JSON object → <ns0:Outage> with county-level tags.
+
+Rule 2 (Array): areas[] JSON array → multiple <ns0:OutageArea>.
+
+Rule 3 (Primitive): Numeric/string values placed as tag text.
+
+Rule 4 (Nulls): Dropped if not required by CIM (e.g., etr is omitted since null).
+
+Rule 5 (Standard mapping): JSON keys mapped to CIM tags instead of literal tag names (cust_s → <ns0:metersServed>).

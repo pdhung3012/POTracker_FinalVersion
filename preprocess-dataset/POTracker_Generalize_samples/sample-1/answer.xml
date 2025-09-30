@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+  <ns0:Outage>
+    <ns0:mRID>OHIO-State-Outage-20250307</ns0:mRID>
+    <ns0:communityDescriptor>OHIO</ns0:communityDescriptor>
+    <ns0:cause>Pending Investigation</ns0:cause>
+    <ns0:causeKind>unknown</ns0:causeKind>
+    <ns0:metersAffected>402</ns0:metersAffected>
+    <ns0:outageKind>outageReported</ns0:outageKind>
+    <ns0:reportedStartTime>2025-03-07T00:00:00Z</ns0:reportedStartTime>
+    <ns0:statusKind>ongoing</ns0:statusKind>
+    <ns0:EstimatedRestorationTime>
+      <ns0:ert>2025-03-07T17:00:00Z</ns0:ert>
+    </ns0:EstimatedRestorationTime>
+    <ns0:OutageArea>
+      <ns0:metersServed>2100210</ns0:metersServed>
+      <ns0:outageAreaKind>state</ns0:outageAreaKind>
+    </ns0:OutageArea>
+    <ns0:Incident>
+      <ns0:cause>Pending Investigation</ns0:cause>
+      <ns0:Location>
+        <ns0:geoInfoReference>OHIO</ns0:geoInfoReference>
+        <ns0:zoneKind>state</ns0:zoneKind>
+      </ns0:Location>
+    </ns0:Incident>
+    <ns0:Names>
+      <ns0:name>OHIO Utility</ns0:name>
+      <ns0:nameType>UtilityName</ns0:nameType>
+      <ns0:nameTypeAuthority>EIA</ns0:nameTypeAuthority>
+    </ns0:Names>
+  </ns0:Outage>
+</ns0:PubOutages>

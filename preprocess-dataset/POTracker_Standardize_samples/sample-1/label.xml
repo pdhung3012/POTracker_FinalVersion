@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+  <ns0:Outage>
+    <ns0:mRID>2025-03-07-0445</ns0:mRID>
+    <ns0:communityDescriptor>Point near lat 31.282506, lng -90.251914</ns0:communityDescriptor>
+    <ns0:metersAffected>1</ns0:metersAffected>
+    <ns0:outageKind>outageReported</ns0:outageKind>
+    <ns0:reportedStartTime>2025-03-07T19:13:02Z</ns0:reportedStartTime>
+    <ns0:statusKind>awaitingCrewAssignment</ns0:statusKind>
+    <ns0:utilityDisclaimer>Data converted for ODIN submission</ns0:utilityDisclaimer>
+
+    <ns0:actualPeriod>
+      <ns0:start>2025-03-07T19:13:02Z</ns0:start>
+    </ns0:actualPeriod>
+
+    <ns0:OutageArea>
+      <ns0:metersServed>1</ns0:metersServed>
+      <ns0:outageAreaKind>serviceArea</ns0:outageAreaKind>
+    </ns0:OutageArea>
+
+    <ns0:Incident>
+      <ns0:cause>Unknown</ns0:cause>
+      <ns0:Location>
+        <ns0:PositionPoints>
+          <ns0:sequenceNumber>1</ns0:sequenceNumber>
+          <ns0:xPosition>31.282506</ns0:xPosition> <!-- Latitude -->
+          <ns0:yPosition>-90.251914</ns0:yPosition> <!-- Longitude -->
+        </ns0:PositionPoints>
+      </ns0:Location>
+    </ns0:Incident>
+
+    <ns0:Names>
+      <ns0:name>UNKNOWN_UTILITY_ID</ns0:name>
+      <ns0:nameType>UtilityID</ns0:nameType>
+      <ns0:nameTypeAuthority>Unknown</ns0:nameTypeAuthority>
+    </ns0:Names>
+
+    <ns0:Names>
+      <ns0:name>UNKNOWN_UTILITY_NAME</ns0:name>
+      <ns0:nameType>UtilityName</ns0:nameType>
+      <ns0:nameTypeAuthority>Unknown</ns0:nameTypeAuthority>
+    </ns0:Names>
+  </ns0:Outage>
+</ns0:PubOutages>

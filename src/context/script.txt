@@ -1,0 +1,7 @@
+python context_full.py \
+  --model_id /home/hungphd/git/pretrained_open_llms/Mistral-7B-v0.3 \
+  --input ../../preprocess-dataset/input_test.json \
+  --context_path ../../pair-pair-dataset/ODIN.json \
+  --output ../../results/context_full_Mistral-7B-v0.3.json \
+  --max_attempts 3 \
+  --max_input_tokens 8096

@@ -1,0 +1,10 @@
+<PubOutages>
+  <Outage>
+    <town>Dickinson</town>
+    <served_customers>389</served_customers>
+    <customers_out>none</customers_out>
+    <percent_outage>0%</percent_outage>
+    <location_coordinates>-74.5446,44.7299</location_coordinates>
+    <updateTime>recently</updateTime>
+  </Outage>
+</PubOutages>

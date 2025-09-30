@@ -1,0 +1,16 @@
+{
+  'key': 'ctv',
+  'name': 'Dickinson',
+  'cust_a': {'val': 0},
+  'cust_s': 389,
+  'percent_cust_a': {'val': 0.0},
+  'etr': None,
+  'etr_confidence': None,
+  'gotoMap': {'bbox': [-74.6174026331627, 44.6765400731393, -74.4718760115043, 44.7834402275208]},
+  'areaId': 'NY|Franklin|NY|Dickinson|ctv',
+  'n_out': 0,
+  'county': 'Franklin',
+  'state': 'NY',
+  'file_name': '06c8ed31-48c2-4104-a9a2-41f844152ae3_report.json',
+  'content_index': 70
+}

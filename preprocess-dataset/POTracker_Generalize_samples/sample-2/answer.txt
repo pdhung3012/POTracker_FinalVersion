@@ -1,0 +1,67 @@
+Most Recent Outages:
+Phoenix, Arizona:
+
+Affected Customers: 1,558
+
+Issue: Cause under investigation.
+
+Location: NW GRAND AVE TO N 39TH AVE AND W ORANGEWOOD AVE TO W CAMPBELL AVE
+
+Outage Began: March 7, 2025, 17:46 UTC
+
+Estimated Restoration Time: March 7, 2025, 19:45 UTCinput_nonstandard_march
+
+Tempe, Arizona:
+
+Affected Customers: 261
+
+Issue: Cause under investigation.
+
+Location: S 40TH ST TO S PRIEST DR AND W HOHOKAM EXPY TO E BROADWAY RD
+
+Outage Began: March 7, 2025, 16:52 UTC
+
+Estimated Restoration Time: March 7, 2025, 18:52 UTCinput_nonstandard_march
+
+Phoenix, Arizona:
+
+Affected Customers: 314
+
+Issue: Cause under investigation.
+
+Location: S 20TH ST TO S 32ND ST AND E BASELINE RD TO E RAY RD
+
+Outage Began: March 7, 2025, 09:55 UTC
+
+Estimated Restoration Time: March 7, 2025, 18:30 UTCinput_nonstandard_march
+
+Phoenix, Arizona:
+
+Affected Customers: 251
+
+Issue: Electrical equipment damaged.
+
+Location: N 43RD AVE TO N 31ST AVE AND W CAMELBACK RD TO W INDIAN SCHOOL RD
+
+Outage Began: March 7, 2025, 14:00 UTC
+
+Estimated Restoration Time: March 8, 2025, 01:00 UTCinput_nonstandard_march
+
+Phoenix, Arizona:
+
+Affected Customers: 315
+
+Issue: Electrical equipment damaged.
+
+Location: N 47TH AVE TO N 35TH AVE AND GRAND AVE TO W OSBORN RD
+
+Outage Began: March 7, 2025, 14:01 UTC
+
+Estimated Restoration Time: March 8, 2025, 01:00 UTCinput_nonstandard_march
+
+Summary of Major Recent Outages:
+Largest outage involves 1,558 customers in Phoenix, Arizona.
+
+Common reasons include damaged electrical equipment and ongoing investigations.
+
+Restoration times vary, with the latest estimated at March 8, 2025, 01:00 UTC.

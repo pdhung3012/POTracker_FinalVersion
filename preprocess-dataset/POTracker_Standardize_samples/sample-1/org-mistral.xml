@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+   <ns0:Outage>
+      <ns0:mRID>OUTAGE-20231005-004</ns0:mRID>
+      <ns0:communityDescriptor>FIPS County Code</ns0:communityDescriptor>
+      <ns0:cause>Weather Conditions</ns0:cause>
+      <ns0:causeKind>unplanned</ns0:causeKind>
+      <ns0:metersAffected>40</ns0:metersAffected>
+      <ns0:outageKind>outageReported</ns0:outageKind>
+      <ns0:statusKind>restored</ns0:statusKind>
+      <ns0:Names>
+         <ns0:name>Sample Energy Co</ns0:name>
+         <ns0:nameType>UtilityName</ns0:nameType>
+         <ns0:nameTypeAuthority>SampleEntity</ns0:nameTypeAuthority>
+      </ns0:Names>
+   </ns0:Outage>
+</ns0:PubOutages>

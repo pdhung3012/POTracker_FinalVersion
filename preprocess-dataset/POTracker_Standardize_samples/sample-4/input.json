@@ -1,0 +1,16 @@
+{
+  'key': 'ctv',
+  'name': 'Cold Spring',
+  'cust_a': {'val': 0},
+  'cust_s': 523,
+  'percent_cust_a': {'val': 0.0},
+  'etr': None,
+  'etr_confidence': None,
+  'gotoMap': {'bbox': [-78.943114647988, 41.9977134466813, -78.8263470201471, 42.172545885283]},
+  'areaId': 'NY|Cattaraugus|NY|Cold Spring|ctv',
+  'n_out': 0,
+  'county': 'Cattaraugus',
+  'state': 'NY',
+  'file_name': '30d77369-2b12-4c0d-867d-31b2e7a4f18a_report.json',
+  'content_index': 42
+}

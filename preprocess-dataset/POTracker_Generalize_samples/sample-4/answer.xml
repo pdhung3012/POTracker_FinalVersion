@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+
+  <ns0:Outage>
+    <ns0:mRID>Maricopa-AZ-20250307-1</ns0:mRID>
+    <ns0:communityDescriptor>Maricopa County, Arizona</ns0:communityDescriptor>
+    <ns0:cause>Cause under investigation</ns0:cause>
+    <ns0:metersAffected>1558</ns0:metersAffected>
+    <ns0:outageKind>outageReported</ns0:outageKind>
+    <ns0:reportedStartTime>2025-03-07T17:46:00Z</ns0:reportedStartTime>
+    <ns0:EstimatedRestorationTime>
+      <ns0:ert>2025-03-07T19:45:00Z</ns0:ert>
+    </ns0:EstimatedRestorationTime>
+    <ns0:OutageArea>
+      <ns0:metersServed>Unknown</ns0:metersServed>
+      <ns0:outageAreaKind>county</ns0:outageAreaKind>
+    </ns0:OutageArea>
+    <ns0:Incident>
+      <ns0:cause>Cause under investigation</ns0:cause>
+      <ns0:Location>
+        <ns0:geoInfoReference>04013</ns0:geoInfoReference>
+        <ns0:zoneKind>county</ns0:zoneKind>
+      </ns0:Location>
+    </ns0:Incident>
+  </ns0:Outage>
+
+</ns0:PubOutages>

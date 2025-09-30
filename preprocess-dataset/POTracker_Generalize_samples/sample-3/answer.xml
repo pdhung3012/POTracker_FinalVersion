@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PubOutages xmlns:ns0="http://iec.ch/TC57/2014/PubOutages#">
+
+  <ns0:Summary>
+    <ns0:totalOutageCases>5</ns0:totalOutageCases>
+    <ns0:reportingPeriod>
+      <ns0:start>2025-03-01T00:00:00Z</ns0:start>
+      <ns0:end>2025-03-07T23:59:59Z</ns0:end>
+    </ns0:reportingPeriod>
+  </ns0:Summary>
+
+</ns0:PubOutages>
